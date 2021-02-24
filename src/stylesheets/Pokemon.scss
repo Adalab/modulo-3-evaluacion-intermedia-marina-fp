@@ -8,15 +8,18 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: lightyellow;
+    background-color: rgb(214, 243, 247);
 
     &__image {
-        width: 140px;
+        width: 180px;
     }
 
     &__name {
+        text-align: center;
         text-transform: capitalize;
-        padding: 15px;
+        padding: 10px;
+        width: 230px;
+        border: 1px solid black;
     }
     
     &__types {
@@ -27,8 +30,8 @@
             text-transform: uppercase;
             border-radius: 20px;
             background-color: grey;
-            margin: 3px;
-            padding: 3px;
+            margin: 13px;
+            padding: 4px;
             font-size: 10px;
             color: white;
             
