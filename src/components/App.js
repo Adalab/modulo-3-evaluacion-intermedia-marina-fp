@@ -1,3 +1,5 @@
+// Aquí llamo al array de objetos desde el archivo data.json para distribuirlo hacia hijas y nietas y pintarlo
+
 import React from 'react';
 import PokeList from './PokeList';
 import pokemons from '../data/data.json';

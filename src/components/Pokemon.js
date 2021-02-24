@@ -1,4 +1,5 @@
-//Aquí practico con un componente funcional
+// Aquí practico con un componente funcional
+
 import '../stylesheets/Pokemon.scss'
 
 const Pokemon =(props)=>{
