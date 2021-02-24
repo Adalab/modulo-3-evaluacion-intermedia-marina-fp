@@ -1,0 +1,38 @@
+.card {
+    width: 230px;
+    height: 300px;
+    margin: 20px;
+    border: solid 2px black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightyellow;
+
+    &__image {
+        width: 140px;
+    }
+
+    &__name {
+        text-transform: capitalize;
+        padding: 15px;
+    }
+    
+    &__types {
+        display: flex;
+        flex-direction: row;
+        
+        &--type {
+            text-transform: uppercase;
+            border-radius: 20px;
+            background-color: grey;
+            margin: 3px;
+            padding: 3px;
+            font-size: 10px;
+            color: white;
+            
+        }
+       
+    }
+}

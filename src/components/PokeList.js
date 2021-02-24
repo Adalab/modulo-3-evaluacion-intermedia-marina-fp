@@ -2,6 +2,7 @@
 
 import React from 'react';
 import Pokemon from './Pokemon';
+import '../stylesheets/Pokelist.scss';
 
 class PokeList extends React.Component {
   render() {
@@ -13,8 +14,8 @@ class PokeList extends React.Component {
     )
     });
     return (
-      <div>
-        <ul>{item}</ul>
+      <div className="list">
+        <ul className="list__cards">{item}</ul>
       </div>
     );
   }
